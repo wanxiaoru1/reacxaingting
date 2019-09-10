@@ -1,0 +1,88 @@
+body,html,#root{
+    width: 100%;
+    height: 100%;
+}
+.quan{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav a{
+    width:25%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #666;
+}
+.active{
+    border-bottom: 1px solid skyblue;
+    color: skyblue
+}
+.nei{
+    flex: 1;
+    overflow: auto;
+}
+.di{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.lu{
+    width: 60%;
+    height: 30px;
+    background: skyblue;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+   
+}
+input{
+    width:70%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    background: #ccc;
+    border-radius: 5px;
+    border: 0;
+}
+.biao{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+b{
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
